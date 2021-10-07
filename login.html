@@ -1,0 +1,29 @@
+<DOCTYPE HTML5>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+
+  <body width="50%" height="50%">
+    <form action="index.html" method="post" class="loginForm">
+      <h2>Login</h2>
+      <div class="idForm">
+        <input type="text" class="id" placeholder="ID">
+      </div>
+      <div class="passForm">
+        <input type="password" class="PW" placeholder="PW">
+      </div>
+      <button type="button" class="btn" onclick="button()">
+        LOG IN
+      </button>
+      <script>
+      	let button = () => {
+        	alert('login')
+        }
+      </script>
+      <div class="bottomText">
+        아이디가 없으신가요?<a href="#">회원가입</a>
+      </div>
+    </form>
+  </body>
+</html>
